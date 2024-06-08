@@ -37,6 +37,7 @@ class WaffleViewModel @Inject constructor(
     val viewState: StateFlow<WalletViewState>
         get() = _state
 
+    
     init {
         viewModelScope.launch {
             walletConnectionUseCase.walletDetails
