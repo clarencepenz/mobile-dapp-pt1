@@ -13,6 +13,7 @@ import com.example.waffle.viewmodel.WaffleViewModel
 import android.net.Uri
 import com.solana.mobilewalletadapter.clientlib.ActivityResultSender
 
+
 @Composable
 fun WalletConnectButton(
     identityUri: Uri,
