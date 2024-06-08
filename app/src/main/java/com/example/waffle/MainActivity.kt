@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         val activityResultSender = ActivityResultSender(this)
+
         
         setContent {
             WaffleTheme {
